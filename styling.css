@@ -1,0 +1,43 @@
+/* General Reset */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', Arial, sans-serif;
+  color: #424242;
+}
+
+/* Header Flexbox Layout */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+  border-bottom: 1px solid #eee;
+}
+
+/* Navigation Links */
+nav a {
+  margin-left: 30px;
+  text-decoration: none;
+  color: #666;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #1e5ba5;
+}
+
+/* Call-to-action Button */
+button {
+  background-color: #387ed1;
+  color: #ffffff;
+  border: none;
+  padding: 12px 30px;
+  font-size: 16px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1a5bb8;
+}
